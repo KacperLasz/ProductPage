@@ -1,0 +1,34 @@
+--------------------In General--------------------
+1. Make sure colours are good
+2. Choose good fonts
+
+
+
+
+--------------------Featured Section--------------------
+
+1. Make the featured section stay for couple seconds and fade
+into other top products (animation)
+
+
+
+
+
+
+--------------------Header--------------------
+1. Make the products a drop down for the user to
+choose the type of product they want
+
+If they just click instead of choosing the category
+Send them to a page of listed categories 
+
+
+
+
+
+
+
+--------------------Product Section--------------------
+
+1. Make the list scrollable, you can see the start of the product
+then scroll to see the product

@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Boldense";
+    src: url(Boldonse-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OswaldMedium";
+    src: url(Oswald/static/Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family: "OswaldLight";
+    src: url(Oswald/static/Oswald-Light.ttf);
+}
+
+
+/* CLASS TAGS -------------------------------------*/
+
+.details { /* "." is used for "class" tag */
+    margin-bottom: 1.25px;
+    position: absolute; /* absolute ignores everything else*/
+}
+
+.white{
+    float: left; /* floats img to the right */
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 707px;
+    
+    border: 5px solid black;
+    width: 25%;
+    height: 53rem;
+}
+
+
+.input_e{
+    position: absolute;
+    top: 202px;
+    left: 760px;
+    width: 350px;
+    
+}
+
+.input_p{
+    position: absolute;
+    top: 306px;
+    left: 760px;
+    width: 350px;
+}
+
+.label_e{
+    position: absolute;
+    color: black;
+    top: 180px;
+    left: 750px;
+}
+
+.label_p{
+    position: absolute;
+    color: black;
+    top: 280px;
+    left: 750px;
+}
+
+
+.login_button{
+    position: absolute;
+    top: 430px;
+    left: 816px;
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, lightgray, gray);
+    transition: filter 0.15s;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.login_button:hover{
+     filter: brightness(95%);
+}
+
+.login_button:active{
+    filter: brightness(90%);
+}
+
+.link1{
+    color: black;
+    text-decoration: none;
+}
+
+.link1:hover{
+    color: #424242;
+}
+
+.extra{
+    position: absolute;
+    left: 845px;
+    top: 700px;
+    font-size: 20px;
+}
+
+.sign{
+    position: absolute;
+    left: 895px;
+    top: 490px;
+    font-size: 20px;
+}
+
+.google{
+    position: absolute;
+    width: 3%;
+    left: 885px;
+    top: 550px;
+    
+}
+
+.facebook{
+    position: absolute;
+    left: 954px;
+    width: 5.4%;
+    top: 547px;
+}
+
+
+.email{
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+
+.lock{
+    height: 30px;
+    position: absolute;
+    top: 300px;
+    left: 750px;
+}
+
+
+
+/* ID TAGS -------------------------------------*/
+
+
+#forgot{
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 345px;
+    left: 1037px;
+}
+
+#forgot:hover{ /* When the mouse hovers over */
+    color: gray;
+    
+
+}
+
+
+
+
+/* NON TAGS -------------------------------------*/
+
+
+
+
+body{
+    background-image: url(bg.png);
+    background-size: 2000px;
+    background-position-y: -300px;
+    
+}
+
+
+
+h1{
+    
+    font-family:"OswaldMedium";
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    top: 20px;
+    
+}
+
+
+input {
+    border: 0;
+    border-bottom: 3px solid #D3D3D3;
+    outline:none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-left: 30px;
+    
+}
+
+label {
+    top: 0;
+    left: 0;
+    color: #424242;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    cursor: text;
+    
+
+}
+
+input, label {
+    
+    width: 20%;
+    height: 20px;
+    
+}
+
+input:focus { /* when its selected or clicked on kinda */
+    border-color: black;
+    
+    
+    
+}
